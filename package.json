@@ -1,0 +1,34 @@
+{
+  "name": "api-heart",
+  "version": "1.0.0",
+  "description": "API health dashboard with AI diagnostics",
+  "type": "module",
+  "bin": {
+    "api-heart": "./bin/heart.js"
+  },
+  "scripts": {
+    "start": "node bin/heart.js",
+    "test": "node bin/heart.js check https://httpbin.org/get"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "js-yaml": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "api",
+    "health",
+    "monitoring",
+    "cli",
+    "dashboard"
+  ],
+  "author": "NickCirv <nick@cirvgreen.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickCirv/api-heart"
+  }
+}
