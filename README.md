@@ -1,3 +1,5 @@
+![Banner](banner.svg)
+
 # api-heart
 
 Instant API health checks with SSL inspection, uptime tracking, and a grade from A to F.
